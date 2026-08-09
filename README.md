@@ -33,7 +33,7 @@ The SQLite database (`users.db`) is created automatically the first time you run
 - `FirstName`, `LastName`: required, max 100 characters
 - `Email`: required, valid email format, max 256 characters, must be unique (`409 Conflict` on duplicate)
 - `PhoneNumber`: required, valid phone format, max 20 characters
-- `DateOfBirth`: cannot be in the future
+- `DateOfBirth`: cannot be in the future. Accepts standard date formats, e.g. `1990-05-15` (a full ISO 8601 timestamp also works, but only the date portion is used).
 
 ## Architecture
 

@@ -299,6 +299,9 @@ node_modules/
 *.db-shm
 *.db-wal
 
+# Visual Studio Solution files
+*.slnx
+
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
 **/*.DesktopClient/GeneratedArtifacts

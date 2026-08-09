@@ -12,7 +12,7 @@ A take-home implementation of a Web API that manages a single `Users` entity: cr
 
 1. Open `UserManagement.sln` (restores/builds automatically, or run `dotnet build UserManagement.sln`).
 2. Run using the **http** launch profile (avoids a local HTTPS certificate prompt): select **http** from the launch profile dropdown in Visual Studio and press F5, or run `dotnet run --project UserManagement_API --launch-profile http`.
-3. Swagger UI opens automatically at `/swagger` for testing all endpoints.
+3. Swagger UI opens automatically at /swagger for testing all endpoints. If it doesn't open automatically (this can happen when running via a terminal instead of Visual Studio), navigate to http://localhost:5268/swagger manually.
 
 The SQLite database (`users.db`) is created automatically the first time you run the app.
 
